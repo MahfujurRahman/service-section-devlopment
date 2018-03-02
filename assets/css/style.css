@@ -1,0 +1,84 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.padding{
+    padding-top: 70px;
+}
+
+.heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.heading h2{
+    text-transform: uppercase;
+}
+.singel-team{
+
+}
+
+.team-social-sit{
+    background-color: #5BA939;
+    padding: 16px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -26px;
+    position: relative;
+}
+
+.team-social-sit a{
+    font-size: 16px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.singel-team img{
+    border: 1px solid #E8E8EA;
+}
+
+.singel-team h4{
+    padding-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.singel-team span{
+    display: block;
+    font-size: 75%;
+    padding-top: 10px;
+    color: #5BA939;
+    font-weight: normal;
+}
